@@ -74,3 +74,13 @@ npx lerna create react-scripts
     //appName eg/my-app
     //originalDirectory /Users/kong.ds/Documents/person/cli
     ```
+
+    - 添加依赖
+      - ["react", "react-dom", "react-scripts", "cra-template"];
+    - 安装
+      - 开启子进程，通过 yarn 进行精确版本安装
+    - 执行 react-scripts 脚本
+      - copy 模版
+      - spawn
+        - -e 指定可执行脚本
+        - -- 添加参数
